@@ -1,0 +1,2 @@
+use the following command to run specific testng file via cmd
+mvn clean test -Dsurefire.suiteXmlFiles="src/test/resources/testng.xml"

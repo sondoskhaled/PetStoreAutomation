@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetStoreUsersSuite">
+
+    <test thread-count="1"  name="PetStoreUsersTests">
+        <classes>
+            <!--     <class name="api.testcases.DDTests">
+                    <methods>
+                        <include name="testCreateUser"/>
+                        <include name="testDeleteUserByName"/>
+                    </methods>
+                </class>-->
+            <!--<class name="api.testcases.UserTests">
+                <methods>
+                    <include name="testCreateUser"/>
+                    <include name="testGetUserByName"/>
+                    <include name="testUpdateUserByName"/>
+                    <include name="testDeleteUserByName"/>
+                </methods>
+            </class>-->
+<!--            <class name="api.testcases.UserTests2">-->
+<!--                <methods>-->
+<!--                    <include name="testCreateUser"/>-->
+<!--                    <include name="testGetUserByName"/>-->
+<!--                    <include name="testUpdateUserByName"/>-->
+<!--                    <include name="testDeleteUserByName"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="api.testcases.ClassToTest"></class>
+
+        </classes>
+
+    </test>
+</suite>
